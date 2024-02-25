@@ -19,22 +19,27 @@ public class LinearSearch {
           for(int i=0; i<n; i++){
               arr[i]=sc.nextInt();
           }
-
-          int k = sc.nextInt()
-
-          
-
-          System.out
-
-    }
-
-    p
-        for(int i=0; i<n; i++){
-
-            if(i==k){
-                System.out.println(k);
+          System.out.println("Enter the target element");
+          int x = sc.nextInt();
+          int idx = -1;
+          for(int i=0; i<n; i++){
+            if(arr[i]==x){
+                idx = i;
             }
+          }
+         if(idx == -1 ){
+            System.out.println("Elements not found in an array!!");
+         }
+
+         else{
+            System.out.println("Searched Elements found at indx " + idx);
+         }
+          
         }
     }
+        
+
     
-}
+
+    
+
