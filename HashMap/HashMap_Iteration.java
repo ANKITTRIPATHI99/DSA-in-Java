@@ -26,18 +26,20 @@ public class HashMap_Iteration {
         map.put("China", 120);
         map.put("USA", 80);
 
-        for(Map.Entry<String, Integer> e : map.entrySet()) {
+        // for(Map.Entry<String, Integer> e : map.entrySet()) {
 
-            System.out.println(e.getKey());
-            System.out.println(e.getValue());
+        //     System.out.println(e.getKey());
+        //     System.out.println(e.getValue());
 
-        }
+        // }
 
-         Set<String> keys = map.keySet();
-         for(String key : keys ) {
-            System.out.println(key+ " " + map.get(key));
-         }
-
+        //  Set<String> keys = map.keySet();
+        //  for(String key : keys ) {
+        //     System.out.println(key+ " " + map.get(key));
+        //  }
+        
+        map.remove("China");
+        System.out.println(map);
 
     }
 }
