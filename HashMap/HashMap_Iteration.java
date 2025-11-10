@@ -22,7 +22,7 @@ public class HashMap_Iteration {
 
         HashMap <String, Integer> map = new HashMap<>();
 
-        map.put("India", 140);
+        map.put("India", 110);
         map.put("China", 120);
         map.put("USA", 80);
 
